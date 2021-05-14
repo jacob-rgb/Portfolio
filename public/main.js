@@ -377,7 +377,7 @@ __webpack_require__.r(__webpack_exports__);
 class ApiService {
     constructor(_http) {
         this._http = _http;
-        this.path = 'http://localhost:8080/api/';
+        this.path = 'https://portfolio-app-jr.herokuapp.com/api/';
     }
     getConocimientos() {
         return this._http.get(this.path + 'conocimientos');

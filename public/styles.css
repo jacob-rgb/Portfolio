@@ -133,24 +133,6 @@ p {
   }
 }
 
-@keyframes aparecerIzq {
-  from {
-    transform: scale(0) translateX(600px) translateY(-500px);
-  }
-  to {
-    transform: scale(1) translateX(0px) translateY(0);
-  }
-}
-
-@keyframes aparecerDrch {
-  from {
-    transform: scale(0) translateX(-600px) translateY(500px);
-  }
-  to {
-    transform: scale(1) translateX(0px) translateY(0);
-  }
-}
-
 @keyframes cambiarColorTexto {
   0% {
     color: black;
